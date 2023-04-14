@@ -11,6 +11,12 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
+/*The code is an implementation of a dialog window for creating or editing Work Orders. 
+* The dialog contains text fields for the name, department, date of initial request, date fulfilled, description and billing rate of a work order. 
+* It has buttons for saving, canceling and adding another work order. 
+* The actionPerformed method uses ActionCommands to determine which button was clicked and to execute the corresponding method accordingly. 
+* The FocusListeners are used to validate the data from the text fields. Any errors that occur are displayed in red text below the text fields. 
+*/
 
 class WorkOrderDialog extends JDialog implements ActionListener, FocusListener
 {

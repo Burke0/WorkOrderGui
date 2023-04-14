@@ -7,6 +7,19 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import java.util.Random;
 import java.util.Calendar;
 
+
+
+/*
+* The selected code is a Java class called "WorkOrderGui" that extends the "JPanel" class and implements the "ActionListener" and "ListSelectionListener" interfaces. 
+* The purpose of this class is to create a graphical user interface (GUI) for managing work orders.
+* The GUI consists of a list of work orders displayed in a scrollable pane, along with several buttons for manipulating the list, including: load, save, save as, add, edit, delete, and exit. 
+* Additionally, the menu bar contains similar options, as well as options for adding a new item or a random item, deleting all items, and saving the current list to a file.
+* The "actionPerformed" method handles button clicks and performs the appropriate action based on the button that was clicked. 
+* For example, if the "Load" button is clicked, the user is prompted to select a file, and if a file is selected, the contents of the file are loaded into the list.
+* The "valueChanged" method handles changes to the selection in the list and enables or disables the "Edit" and "Delete" buttons based on whether an item is selected or not.
+* The "main" method creates a "WorkOrderGui" object and adds it to a new "JFrame" object to display the GUI to the user.
+*/
+
 /*TODO
 add bool flag when after editing w/ JDialog to trigger a save prompt upon exiting
 focus listeners for better input validation

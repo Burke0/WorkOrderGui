@@ -3,7 +3,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 
 import javax.swing.DefaultListModel;
-
+// this code defines a WorkOrderList class that can read and write a list of WorkOrder objects to and from a data input/output stream.
 class WorkOrderList extends DefaultListModel<WorkOrder>
 {
 	public WorkOrderList()
